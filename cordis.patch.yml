@@ -1,0 +1,3 @@
+- insert:
+    - id: ollama
+      name: '@local/dsh-ollama'

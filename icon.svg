@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Cloud channel">
+  <!-- A cloud (the hosted endpoint) feeding two channel rows (the protocol routes). -->
+  <path d="M13.4 20.2a5.1 5.1 0 0 1-.9-10.1 6.4 6.4 0 0 1 11.9-.5 4.6 4.6 0 0 1 1.6 8.9 5.2 5.2 0 0 1-1.4 1.7z" fill="#2f6f8c"/>
+  <rect x="8" y="23" width="20" height="3.4" rx="1.7" fill="#7fa9bd"/>
+  <rect x="12" y="28.6" width="12" height="3.4" rx="1.7" fill="#a8c6d4"/>
+</svg>

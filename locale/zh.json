@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama 渠道",
+    "description": "把 Ollama 添加为模型提供方和搜索提供方。打开 设置 > Ollama，粘贴 ollama.com/settings/keys 生成的 Ollama API key，勾选你需要的协议（Anthropic Messages、OpenAI Responses 或 OpenAI Chat Completions），从服务地址拉取模型列表并保存。每个勾选的协议都会成为模型选择器中的一个独立渠道，分别显示为 Ollama · Anthropic、Ollama · Responses、Ollama · Chat。同一页面还可以让网页搜索走 Ollama；因为它对全部对话渠道生效，所以 DSH 目前不支持按渠道选择搜索提供方。API key 保存在 Host 凭据库，不会写进配置文件。Ollama Cloud 不支持 tool_choice、提示缓存和有状态的 Responses，其网页搜索需要 Ollama 账号且有速率限制；停用本插件后，Ollama 搜索提供方和本页面会消失，但已经写入模型适配器设置的渠道仍会保留。"
+  }
+}

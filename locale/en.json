@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama channels",
+    "description": "Adds Ollama as a model provider and a search provider. Open Settings > Ollama, paste an Ollama API key from ollama.com/settings/keys, choose which protocols you want (Anthropic Messages, OpenAI Responses, or OpenAI Chat Completions), fetch the model list from the endpoint, and save. Each selected protocol becomes its own channel in the model selector, named Ollama · Anthropic, Ollama · Responses, and Ollama · Chat. The same page can make web search use Ollama, which applies to every chat route because DSH has no per-route search selection. The API key is stored in the Host credential store, never in configuration files. Ollama Cloud does not support tool_choice, prompt caching, or stateful Responses, and its web search needs an Ollama account and is rate limited; with the bundle disabled the Ollama search provider and this page disappear, while any channels already written into the model adapter's settings stay configured."
+  }
+}
